@@ -56,12 +56,15 @@ function sqrt(a) {
 // }
 // start(+prompt('Enter start number'), +prompt('Enter last number'));
 var hypo;
-var base = +prompt('Value of base');
-var perp = +prompt('Value of perpendicular')
-function outer(){
-    function inner(){
-        console.log(base *base + perp*perp);
+function outer(base , perp) {
+    function inner() {
+        console.log(base * base + perp * perp);
     }
     inner(); //(Base + prep)2
 }
-outer(``) // Calculate Hypotenous
+ outer(1,1)
+
+
+let area = (width, height) => width * height;
+var ar = area(3, 6) 
+console.log('Area of triangle = '+ar);
